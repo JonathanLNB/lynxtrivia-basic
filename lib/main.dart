@@ -21,7 +21,7 @@ class LynxTrivia extends StatelessWidget {
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     return AppConfig(
         appTitle: "Semana Lince",
-        apiBaseUrl: "http://192.168.1.79:8002/api/",
+        apiBaseUrl: "http://192.168.43.172:8002/api/",
         usuario: 'admin',
         password: 'supersecret',
         child: GetMaterialApp(
